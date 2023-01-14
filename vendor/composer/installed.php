@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'slim/slim',
-        'pretty_version' => '4.11.0',
-        'version' => '4.11.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '5b842b6d843aacea0529f087c884fc0b2b42b93b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -35,7 +35,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../fig/http-message-util',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
             'pretty_version' => '2.4.3',
@@ -272,7 +272,7 @@
             'dev_requirement' => false,
         ),
         'psr/http-factory-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
             ),
@@ -287,7 +287,7 @@
             'dev_requirement' => false,
         ),
         'psr/http-message-implementation' => array(
-            'dev_requirement' => true,
+            'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
             ),
@@ -326,7 +326,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
@@ -472,6 +472,15 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'selective/basepath' => array(
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
+            'reference' => '63961fbfcaf492bd0ae8e40653f6c3c750c2f8ad',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../selective/basepath',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'slim/http' => array(
             'pretty_version' => '1.3',
             'version' => '1.3.0.0',
@@ -488,12 +497,12 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../slim/psr7',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'slim/slim' => array(
-            'pretty_version' => '4.11.0',
-            'version' => '4.11.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '5b842b6d843aacea0529f087c884fc0b2b42b93b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -515,7 +524,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-php80',
             'aliases' => array(),
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.1',

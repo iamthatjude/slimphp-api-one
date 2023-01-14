@@ -47,6 +47,7 @@ class ComposerStaticInit1e3e3e677718f584e6529037e7803564
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
             'Slim\\' => 5,
+            'Selective\\BasePath\\' => 19,
         ),
         'P' => 
         array (
@@ -97,8 +98,8 @@ class ComposerStaticInit1e3e3e677718f584e6529037e7803564
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -124,6 +125,10 @@ class ComposerStaticInit1e3e3e677718f584e6529037e7803564
         array (
             0 => __DIR__ . '/../..' . '/Slim',
         ),
+        'Selective\\BasePath\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/selective/basepath/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -135,8 +140,8 @@ class ComposerStaticInit1e3e3e677718f584e6529037e7803564
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
